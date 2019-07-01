@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Faculty" max_length="40" name="x_376152_college_a_faculty" type="collection">
+        <element label="Dept No" max_length="32" name="dept_no" reference="x_376152_college_a_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Designation" max_length="40" name="desg" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Faculty ID" mandatory="true" max_length="40" name="fac_id" type="string"/>
+        <element label="Mobile No" max_length="40" name="mobile_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Year of joining" max_length="40" name="yoj" type="glide_date"/>
+        <index name="index">
+            <element name="dept_no"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

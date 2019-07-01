@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>Department </label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_376152_college_a_department</name>
+        <number_ref display_value="CVR">04cfcdb6db523300562cd1b1ca9619ff</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-01 06:00:15</sys_created_on>
+        <sys_id>9a0f05b6db523300562cd1b1ca96191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Department </sys_name>
+        <sys_package display_value="College Automation System" source="x_376152_college_a">a56d0db2db523300562cd1b1ca961992</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College Automation System">a56d0db2db523300562cd1b1ca961992</sys_scope>
+        <sys_update_name>sys_db_object_9a0f05b6db523300562cd1b1ca96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-01 06:00:18</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_376152_college_a.department_user" name="x_376152_college_a.department_user">53bf85b6db523300562cd1b1ca961939</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

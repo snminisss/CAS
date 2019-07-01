@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="fname" label="Father's Name" language="en" table="x_376152_college_a_student">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fname</element>
+            <help/>
+            <hint/>
+            <label>Father's Name</label>
+            <language>en</language>
+            <name>x_376152_college_a_student</name>
+            <plural>Father's Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-01 06:34:41</sys_created_on>
+            <sys_id>ff97dd3edb523300562cd1b1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Father's Name</sys_name>
+            <sys_package display_value="College Automation System" source="x_376152_college_a">a56d0db2db523300562cd1b1ca961992</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="College Automation System">a56d0db2db523300562cd1b1ca961992</sys_scope>
+            <sys_update_name>sys_documentation_x_376152_college_a_student_fname_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-01 06:34:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

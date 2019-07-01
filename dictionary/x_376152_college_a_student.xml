@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student" max_length="40" name="x_376152_college_a_student" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Blood Group" max_length="40" name="bg" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email id" mandatory="true" max_length="40" name="eid" type="string"/>
+        <element label="Father's  Number" max_length="40" name="father_s_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Father's Name" max_length="50" name="fname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mother's Name" max_length="40" name="mname" type="string"/>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="phone_number_e164"/>
+        <element display="true" label="Mother's Number" max_length="40" name="mother_s_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Semester" mandatory="true" max_length="40" name="sem" type="string">
+            <choice>
+                <element inactive_on_update="false" label="I" sequence="0" value="i_sem"/>
+                <element inactive_on_update="false" label="II" sequence="1" value="ii_sem"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Student Id" mandatory="true" max_length="10" name="stu_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" mandatory="true" max_length="60" name="stu_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Dept No" max_length="32" name="u_reference_3" reference="x_376152_college_a_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="i_yr" label="Year" mandatory="true" max_length="40" name="year" type="string">
+            <choice>
+                <element inactive_on_update="false" label="I" sequence="0" value="i_yr"/>
+                <element inactive_on_update="false" label="II" sequence="1" value="ii_yr"/>
+                <element inactive_on_update="false" label="III" sequence="2" value="iii_yr"/>
+                <element inactive_on_update="false" label="IV" sequence="3" value="iv_yr"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
