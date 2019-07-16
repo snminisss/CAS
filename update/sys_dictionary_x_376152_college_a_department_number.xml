@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Dept No:</column_label>
+        <column_label>Dept ID</column_label>
         <comments/>
         <create_roles/>
         <default_value>javascript:global.getNextObjNumberPadded();</default_value>
@@ -22,7 +22,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-01 06:00:19</sys_created_on>
         <sys_id>58cf01f6db523300562cd1b1ca961905</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Dept No:</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Dept ID</sys_name>
         <sys_package display_value="College Automation System" source="x_376152_college_a">a56d0db2db523300562cd1b1ca961992</sys_package>
         <sys_policy/>
         <sys_scope display_value="College Automation System">a56d0db2db523300562cd1b1ca961992</sys_scope>
         <sys_update_name>sys_dictionary_x_376152_college_a_department_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-01 06:04:08</sys_updated_on>
+        <sys_updated_on>2019-07-09 08:16:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

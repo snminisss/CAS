@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_376152_college_a.RetrieveYear</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RetrieveYear</name>
+        <script><![CDATA[var RetrieveYear = Class.create();
+RetrieveYear.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getyear:function()
+	{
+		var year = new GlideRecord('x_376152_college_a_course');
+		year.get(this.getParameter('sysparm_course'));
+		/*var obj = {};
+
+		obj.var1 = year.yr;
+		obj.var2 = year.sem;
+
+		var json = new JSON();
+		var data = json.encode(obj);*/
+		return year.yr + '';
+	},
+
+    type: 'RetrieveYear'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-15 05:45:58</sys_created_on>
+        <sys_id>e391911bdbaa7300562cd1b1ca961904</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>RetrieveYear</sys_name>
+        <sys_package display_value="College Automation System" source="x_376152_college_a">a56d0db2db523300562cd1b1ca961992</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="College Automation System">a56d0db2db523300562cd1b1ca961992</sys_scope>
+        <sys_update_name>sys_script_include_e391911bdbaa7300562cd1b1ca961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-15 07:03:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="MarksEntry" max_length="40" name="x_376152_college_a_marksentry" type="collection">
+        <element label="Course ID" max_length="32" name="course_id" reference="x_376152_college_a_course" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="dept" type="string"/>
+        <element label="Faculty ID" max_length="40" name="faculty_id" type="string"/>
+        <element label="Faculty Name" max_length="32" name="id" reference="x_376152_college_a_faculty" type="reference"/>
+        <element label="password" max_length="40" name="password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Semester" max_length="40" name="sem" type="string"/>
+        <element label="temp" max_length="40" name="temp" type="string"/>
+        <element label="Password Set" max_length="40" name="u_boolean_1" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Year" max_length="40" name="year" type="string"/>
+        <index name="index">
+            <element name="course_id"/>
+        </index>
+        <index name="index2">
+            <element name="id"/>
+        </index>
+    </element>
+</database>

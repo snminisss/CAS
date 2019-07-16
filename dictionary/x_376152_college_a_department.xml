@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Department " max_length="40" name="x_376152_college_a_department" type="collection">
-        <element label="Dept Name" mandatory="true" max_length="100" name="dept_name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Dept No:" max_length="40" name="number" read_only="true" type="string"/>
+        <element display="true" label="Dept Name" mandatory="true" max_length="100" name="dept_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Dept ID" max_length="40" name="number" read_only="true" type="string"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>

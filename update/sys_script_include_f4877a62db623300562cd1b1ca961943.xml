@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_376152_college_a.Verify</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Verify</name>
+        <script><![CDATA[var Verify = Class.create();
+Verify.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	Ver:function(i,p)
+{
+	var fac = new GlideRecord('x_376152_college_a_faculty');
+	fac.addQuery('fac_id',i);
+	fac.addQuery('password',p);
+	fac.query();
+	while(fac.next())
+		{
+			return true;
+		}
+},
+	type: 'Verify'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-13 05:15:32</sys_created_on>
+        <sys_id>f4877a62db623300562cd1b1ca961943</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Verify</sys_name>
+        <sys_package display_value="College Automation System" source="x_376152_college_a">a56d0db2db523300562cd1b1ca961992</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="College Automation System">a56d0db2db523300562cd1b1ca961992</sys_scope>
+        <sys_update_name>sys_script_include_f4877a62db623300562cd1b1ca961943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-13 06:25:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

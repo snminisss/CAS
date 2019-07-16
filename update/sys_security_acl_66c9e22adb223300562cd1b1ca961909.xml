@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_376152_college_a_marksentry</description>
+        <name>x_376152_college_a_marksentry</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-13 04:10:54</sys_created_on>
+        <sys_id>66c9e22adb223300562cd1b1ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_376152_college_a_marksentry</sys_name>
+        <sys_package display_value="College Automation System" source="x_376152_college_a">a56d0db2db523300562cd1b1ca961992</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="College Automation System">a56d0db2db523300562cd1b1ca961992</sys_scope>
+        <sys_update_name>sys_security_acl_66c9e22adb223300562cd1b1ca961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-13 04:10:54</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

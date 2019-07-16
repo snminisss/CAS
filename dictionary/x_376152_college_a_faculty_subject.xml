@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Faculty Subject" max_length="40" name="x_376152_college_a_faculty_subject" type="collection">
+        <element label="Course" max_length="32" name="course_id" reference="x_376152_college_a_course" type="reference"/>
+        <element label="Course Id without ref" max_length="40" name="course_id_without_ref" type="string"/>
+        <element label="Faculty Id" max_length="32" name="facid" reference="x_376152_college_a_faculty" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Faculty Id" max_length="40" name="fac_id_s" type="string"/>
+        <element label="my id" max_length="40" name="my_id" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="course_id"/>
+        </index>
+        <index name="index2">
+            <element name="facid"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

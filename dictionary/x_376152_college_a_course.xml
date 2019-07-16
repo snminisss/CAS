@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Course" max_length="40" name="x_376152_college_a_course" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Course ID" max_length="40" name="course_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Course Name" max_length="40" name="course_name" type="string"/>
+        <element label="Department" max_length="32" name="dept" reference="x_376152_college_a_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Semester" max_length="40" name="sem" type="string">
+            <choice>
+                <element inactive_on_update="false" label="I" sequence="0" value="i"/>
+                <element inactive_on_update="false" label="II" sequence="1" value="ii"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Year" max_length="40" name="yr" type="string">
+            <choice>
+                <element inactive_on_update="false" label="I" sequence="0" value="i"/>
+                <element inactive_on_update="false" label="II" sequence="1" value="ii"/>
+                <element inactive_on_update="false" label="III" sequence="2" value="iii"/>
+                <element inactive_on_update="false" label="IV" sequence="3" value="iv"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="dept"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
